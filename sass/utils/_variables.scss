@@ -1,0 +1,14 @@
+:root {
+  --accent-color: #2196f3;
+  --title-black-color: #212121;
+  --text-color: #757575;
+  --text-white-color: #ffffff;
+  --text-line-height: 1.88;
+}
+body {
+  background-color: #ffffff;
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}

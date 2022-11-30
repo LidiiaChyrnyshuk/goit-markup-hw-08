@@ -1,0 +1,13 @@
+.header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
+}
+.header__container,
+.nav {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  color: #000000;
+}
