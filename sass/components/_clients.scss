@@ -1,13 +1,22 @@
 .clients__list {
   display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
   justify-content: center;
 }
-.clients__list .item + .item {
-  margin-left: 30px;
-}
+// .clients__list .item + .item {
+//   margin-left: 30px;
+// }
 .clients__item {
-  width: 170px;
+  width: 210px;
   height: 92px;
+
+ @media screen and (min-width:768px){
+width: 226px;
+ }
+ @media screen and (min-width:1200px){
+width: 170px;
+ }
 }
 
 .clients__icon {

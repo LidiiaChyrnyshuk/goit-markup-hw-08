@@ -60,6 +60,20 @@
             >
           </li>
         </ul>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            width="40"
+            height="40"
+           class="mobile-icon-menu"
+           aria-label="Перемикач мобільного меню"
+          >
+            <use href="./images/symbol-defs.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -90,12 +104,31 @@
             <li class="item card-item card-set-item">
               <a href="" class="link card-link">
                 <div class="card-thumb">
-                  <img
+                  <picture>
+                     <!-- descktop screen -->
+                <source
+                media="(min-width: 1200px)"
+                srcset="./images/portfolio/imgbox1-l@1x.jpg 1x, ./images/portfolio/imgbox1-l@2x.jpg 2x"
+                />
+                <!-- tablet screen -->
+                <source
+                media="(min-width: 768px)"
+                srcset="./images/portfolio/imgbox1-m@1x.jpg 1x, ./images/portfolio/imgbox1-m@2x.jpg 2x"
+                />
+                <!-- mobile screen -->
+                <source
+                media="(max-width: 767px)"
+                srcset="./images/portfolio/imgbox1-s@1x.jpg 1x, ./images/portfolio/imgbox1-s@2x.jpg 2x"
+                />
+                     <img
                     class="list-img img"
                     src="./images/box1.jpg"
                     alt="Відкритий ноутбук з фото"
-                    width="370"
+                    width="450"
+                    loading="lazy"
                   />
+                  </picture>
+                 
                   <p class="card-overlay-text card-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -111,12 +144,31 @@
             <li class="item card-item">
               <a href="" class="link card-link">
                 <div class="card-thumb">
-                  <img
+                  <picture>
+                     <!-- descktop screen -->
+                <source
+                media="(min-width: 1200px)"
+                srcset="./images/portfolio/imgbox2-l@1x.jpg 1x, ./images/portfolio/imgbox2-l@2x.jpg 2x"
+                />
+                <!-- tablet screen -->
+                <source
+                media="(min-width: 768px)"
+                srcset="./images/portfolio/imgbox2-m@1x.jpg 1x, ./images/portfolio/imgbox2-m@2x.jpg 2x"
+                />
+                <!-- mobile screen -->
+                <source
+                media="(max-width: 767px)"
+                srcset="./images/portfolio/imgbox2-s@1x.jpg 1x, ./images/portfolio/imgbox2-s@2x.jpg 2x"
+                />
+                <img
                     class="list-img img"
                     src="./images/box2.jpg"
                     alt="Постер з баскетболістами"
-                    width="370"
+                    width="450"
+                    loading="lazy"
                   />
+                  </picture>
+                  
                   <p class="card-overlay-text card-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -134,12 +186,31 @@
             <li class="item card-item">
               <a href="" class="link card-link">
                 <div class="card-thumb">
-                  <img
+                  <picture>
+                    <!-- descktop screen -->
+                <source
+                media="(min-width: 1200px)"
+                srcset="./images/portfolio/imgbox3-l@1x.jpg 1x, ./images/portfolio/imgbox3-l@2x.jpg 2x"
+                />
+                <!-- tablet screen -->
+                <source
+                media="(min-width: 768px)"
+                srcset="./images/portfolio/imgbox3-m@1x.jpg 1x, ./images/portfolio/imgbox3-m@2x.jpg 2x"
+                />
+                <!-- mobile screen -->
+                <source
+                media="(max-width: 767px)"
+                srcset="./images/portfolio/imgbox3-s@1x.jpg 1x, ./images/portfolio/imgbox3-s@2x.jpg 2x"
+                />
+                     <img
                     class="list-img img"
                     src="./images/box3.jpg"
                     alt="Логотип ресторану морської їжі"
-                    width="370"
+                    width="450"
+                    loading="lazy"
                   />
+                  </picture>
+                 
                   <p class="card-overlay-text card-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -157,12 +228,31 @@
             <li class="item card-item">
               <a href="" class="link card-link">
                 <div class="card-thumb">
-                  <img
+                  <picture>
+                    <!-- descktop screen -->
+                <source
+                media="(min-width: 1200px)"
+                srcset="./images/portfolio/imgbox4-l@1x.jpg 1x, ./images/portfolio/imgbox4-l@2x.jpg 2x"
+                />
+                <!-- tablet screen -->
+                <source
+                media="(min-width: 768px)"
+                srcset="./images/portfolio/imgbox4-m@1x.jpg 1x, ./images/portfolio/imgbox4-m@2x.jpg 2x"
+                />
+                <!-- mobile screen -->
+                <source
+                media="(max-width: 767px)"
+                srcset="./images/portfolio/imgbox4-s@1x.jpg 1x, ./images/portfolio/imgbox4-s@2x.jpg 2x"
+                />
+                 <img
                     class="list-img img"
                     src="./images/box4.jpg"
                     alt="Фото навушників"
-                    width="370"
+                    width="450"
+                    loading="lazy"
                   />
+                  </picture>
+                 
                   <p class="card-overlay-text card-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -181,12 +271,31 @@
             <li class="item card-item">
               <a href="" class="link card-link">
                 <div class="card-thumb">
-                  <img
+                  <picture>
+                     <!-- descktop screen -->
+                <source
+                media="(min-width: 1200px)"
+                srcset="./images/portfolio/imgbox5-l@1x.jpg 1x, ./images/portfolio/imgbox5-l@2x.jpg 2x"
+                />
+                <!-- tablet screen -->
+                <source
+                media="(min-width: 768px)"
+                srcset="./images/portfolio/imgbox5-m@1x.jpg 1x, ./images/portfolio/imgbox5-m@2x.jpg 2x"
+                />
+                <!-- mobile screen -->
+                <source
+                media="(max-width: 767px)"
+                srcset="./images/portfolio/imgbox5-s@1x.jpg 1x, ./images/portfolio/imgbox5-s@2x.jpg 2x"
+                />
+                     <img
                     class="list-img img"
                     src="./images/box5.jpg"
                     alt="Фото двух коробок, білої і рижої"
-                    width="370"
+                    width="450"
+                    loading="lazy"
                   />
+                  </picture>
+                 
                   <p class="card-overlay-text card-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -204,12 +313,31 @@
             <li class="item card-item">
               <a href="" class="link card-link">
                 <div class="card-thumb">
-                  <img
+                  <picture>
+                    <!-- descktop screen -->
+                <source
+                media="(min-width: 1200px)"
+                srcset="./images/portfolio/imgbox6-l@1x.jpg 1x, ./images/portfolio/imgbox6-l@2x.jpg 2x"
+                />
+                <!-- tablet screen -->
+                <source
+                media="(min-width: 768px)"
+                srcset="./images/portfolio/imgbox6-m@1x.jpg 1x, ./images/portfolio/imgbox6-m@2x.jpg 2x"
+                />
+                <!-- mobile screen -->
+                <source
+                media="(max-width: 767px)"
+                srcset="./images/portfolio/imgbox6-s@1x.jpg 1x, ./images/portfolio/imgbox6-s@2x.jpg 2x"
+                />
+                <img
                     class="list-img img"
                     src="./images/box6.jpg"
                     alt="Фото монітора з картою світа"
-                    width="370"
+                    width="450"
+                    loading="lazy"
                   />
+                  </picture>
+                  
                   <p class="card-overlay-text card-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -227,12 +355,31 @@
             <li class="item card-item">
               <a href="" class="link card-link">
                 <div class="card-thumb">
-                  <img
+                  <picture>
+                     <!-- descktop screen -->
+                <source
+                media="(min-width: 1200px)"
+                srcset="./images/portfolio/imgbox7-l@1x.jpg 1x, ./images/portfolio/imgbox7-l@2x.jpg 2x"
+                />
+                <!-- tablet screen -->
+                <source
+                media="(min-width: 768px)"
+                srcset="./images/portfolio/imgbox7-m@1x.jpg 1x, ./images/portfolio/imgbox7-m@2x.jpg 2x"
+                />
+                <!-- mobile screen -->
+                <source
+                media="(max-width: 767px)"
+                srcset="./images/portfolio/imgbox7-s@1x.jpg 1x, ./images/portfolio/imgbox7-s@2x.jpg 2x"
+                />
+                    <img
                     class="list-img img"
                     src="./images/box7.jpg"
                     alt="Фото розгортки журналу"
-                    width="370"
+                    width="450"
+                    loading="lazy"
                   />
+                </picture>
+                  
                   <p class="card-overlay-text card-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -251,12 +398,31 @@
             <li class="item card-item">
               <a href="" class="link card-link">
                 <div class="card-thumb">
-                  <img
+                  <picture>
+                    <!-- descktop screen -->
+                <source
+                media="(min-width: 1200px)"
+                srcset="./images/portfolio/imgbox8-l@1x.jpg 1x, ./images/portfolio/imgbox8-l@2x.jpg 2x"
+                />
+                <!-- tablet screen -->
+                <source
+                media="(min-width: 768px)"
+                srcset="./images/portfolio/imgbox8-m@1x.jpg 1x, ./images/portfolio/imgbox8-m@2x.jpg 2x"
+                />
+                <!-- mobile screen -->
+                <source
+                media="(max-width: 767px)"
+                srcset="./images/portfolio/imgbox8-s@1x.jpg 1x, ./images/portfolio/imgbox8-s@2x.jpg 2x"
+                />
+                     <img
                     class="list-img img"
                     src="./images/box8.jpg"
                     alt="Зображення бірки проекту"
-                    width="370"
+                    width="450"
+                    loading="lazy"
                   />
+                  </picture>
+                 
                   <p class="card-overlay-text card-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -274,12 +440,31 @@
             <li class="item card-item">
               <a href="" class="link card-link">
                 <div class="card-thumb">
-                  <img
+                  <picture>
+                     <!-- descktop screen -->
+                <source
+                media="(min-width: 1200px)"
+                srcset="./images/portfolio/imgbox9-l@1x.jpg 1x, ./images/portfolio/imgbox9-l@2x.jpg 2x"
+                />
+                <!-- tablet screen -->
+                <source
+                media="(min-width: 768px)"
+                srcset="./images/portfolio/imgbox9-m@1x.jpg 1x, ./images/portfolio/imgbox9-m@2x.jpg 2x"
+                />
+                <!-- mobile screen -->
+                <source
+                media="(max-width: 767px)"
+                srcset="./images/portfolio/imgbox9-s@1x.jpg 1x, ./images/portfolio/imgbox9-s@2x.jpg 2x"
+                />
+                     <img
                     class="list-img img"
                     src="./images/box9.jpg"
                     alt="Чоловік працює за ноутбуком у додатку"
-                    width="370"
+                    width="450"
+                    loading="lazy"
                   />
+                  </picture>
+                 
                   <p class="card-overlay-text card-overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -345,8 +530,7 @@
                 ><svg class="icon">
                   <use
                     href="./images/symbol-defs.svg#icon-instagram"
-                  ></use></svg
-              ></a>
+                  ></use></svg></a>
             </li>
             <li class="item social__item social__item--darck">
               <a
@@ -356,8 +540,7 @@
                 rel="noopener noreferrer"
                 aria-label="соцмеража twitter"
                 ><svg class="icon">
-                  <use href="./images/symbol-defs.svg#icon-twitter"></use></svg
-              ></a>
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use></svg></a>
             </li>
             <li class="item social__item social__item--darck">
               <a
@@ -367,8 +550,7 @@
                 rel="noopener noreferrer"
                 aria-label="соцмеража facebook"
                 ><svg class="icon">
-                  <use href="./images/symbol-defs.svg#icon-facebook"></use></svg
-              ></a>
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use></svg></a>
             </li>
             <li class="item social__item social__item--darck">
               <a
@@ -378,8 +560,7 @@
                 rel="noopener noreferrer"
                 aria-label="соцмеража linkedin"
                 ><svg class="icon">
-                  <use href="./images/symbol-defs.svg#icon-linkedin"></use></svg
-              ></a>
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use></svg ></a>
             </li>
           </ul>
         </div>
@@ -402,7 +583,62 @@
             </button>
           </form>
         </div>
+        
       </div>
     </footer>
+    <!-- Mobile menu -->
+     <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+         class="mobile-icon-close"
+          width="40"
+          height="40"
+        >
+        <use href="./images/symbol-defs.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu list">
+        <li class="mobile-menu-item">
+          <a href="./index.html" class=" mobile-menu-link link mobile-menu-current">Студія</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="./portfolio.html" class=" mobile-menu-link link">Портфоліо</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="" class=" mobile-menu-link link">Контакти</a>
+        </li>
+        
+      </ul>
+      <ul class="mobile-contacts list">
+        <li class="mobile-contacts-item">
+          <a href="tel:+380961111111" class="mobile-contacts-link link mobile-contacts-link-accent">+38 096 111 11 11</a>
+        </li>
+        <li class="mobile-contacts-item">
+          <a href="mailto:info@devstudio.com" class="mobile-contacts-link link mobile-contacts-link-darck">info@devstudio.com</a>
+        </li>
+      </ul>
+      <ul class="mobile-social list">
+        <li class="mobile-social-item">
+          <a href="" class="mobile-social-link mobile-social-link-line link">Instagram</a>
+        </li>
+        <li class="mobile-social-item">
+          <a href="" class="mobile-social-link mobile-social-link-line link">Twitter</a>
+        </li>
+        <li class="mobile-social-item">
+          <a href="" class="mobile-social-link mobile-social-link-line link">Facebook</a>
+        </li>
+        <li class="mobile-social-item">
+          <a href="" class="mobile-social-link link">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>

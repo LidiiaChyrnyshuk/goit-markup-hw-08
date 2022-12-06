@@ -5,7 +5,7 @@
   padding-bottom: 200px;
 }
 .hero__title {
-  width: 696px;
+  
   display: block;
   margin-top: 0;
   margin-bottom: 30px;
@@ -15,16 +15,24 @@
   color: var(--text-white-color);
   font-style: normal;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+line-height: 1.62;
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+@media screen and (min-width:1200px) {
+  width: 696px;
+font-size: 44px;
+  line-height: 1.36;
+}
+
+
 }
 .hero__button {
   display: inline-block;
   padding: 10px 32px;
-  min-width: 216px;
+  min-width: 200px;
   min-height: 50px;
 
   transition-property: background-color;
@@ -36,19 +44,81 @@
   &:focus {
   background-color: #188ce8;
 }
+@media screen and (min-width:1200px) {
+  min-width: 216px;
+}
 }
 
 .hero__overlay {
   max-width: 1600px;
   margin: 0 auto;
   background-color: #c4c4c4;
+  // background-image: linear-gradient(
+  //     to right,
+  //     rgba(47, 48, 58, 0.4),
+  //     rgba(47, 48, 58, 0.4)
+  //   ),
+  //   url(../images/bghero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  // mobile screen
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/bghero.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    url(../images/bg-hero/imgbg-s@1x.jpg);
+    // retina mobile screen
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+     background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg-hero/imgbg-s@2x.jpg);
+  }
+
+  // tablet screen
+   @media screen and (min-width: 481px) {
+    background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg-hero/imgbg-m@1x.jpg);
+
+      // retina tablet screen
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+     background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg-hero/imgbg-m@2x.jpg);
+  }
+   }
+
+     // tablet screen
+   @media screen and (min-width: 769px) {
+    background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg-hero/imgbg-l@1x.jpg);
+    
+      // retina tablet screen
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+     background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg-hero/imgbg-l@2x.jpg);
+  }
+   }
+  
+  
 }
