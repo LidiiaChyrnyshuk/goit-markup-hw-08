@@ -21,6 +21,10 @@
   text-transform: uppercase;
 
   color: var(--text-white-color);
+
+  @media screen and (min-width:1200px) {
+    text-align: left;
+  }
 }
 .form__group {
   @media screen and (min-width:1200px) {

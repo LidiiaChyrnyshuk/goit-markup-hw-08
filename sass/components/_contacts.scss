@@ -16,7 +16,7 @@
     margin-left: auto;
   }
 }
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
 .contacts__list .contacts__item + .contacts__item {
   margin-left: 50px;
 }
@@ -40,7 +40,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
 
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
   padding-top: 32px;
   padding-bottom: 32px;
     }
