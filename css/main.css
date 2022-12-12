@@ -288,7 +288,7 @@ body {
   height: auto;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 767px) {
   .card-set {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1434,9 +1434,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  padding-top: 63px;
   padding-right: 24px;
-  padding-bottom: 63px;
   padding-left: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
